@@ -312,6 +312,8 @@ https://mail.google.com[Gmail] SMTP service:
 xpack.notification.email.account:
     gmail_account:
         profile: gmail
+        email_defaults:
+            from: <username>@gmail.com
         smtp:
             auth: true
             starttls.enable: true
